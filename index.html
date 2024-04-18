@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PokeDex</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="main-container" id="main-container">
+        <div class="dropdown-container" id="dropdown-container">
+          <select name="pokemon-list" id="pokemon-list"></select>
+          <span class="dropdown_arrow"></span>
+        </div>
+
+        <div class="sprite-container">
+          <span id="shiny-button" class="shiny-button">
+            <img src="./img/stars.svg" alt="shiny icon" class="star-svg" />
+          </span>
+          <img
+            id="sprite-image"
+            src=" https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/1.png"
+            alt="sprite"
+          />
+        </div>
+
+        <div class="description-container">
+          <h1 class="name" id="name">#1 Bulbasaur</h1>
+          <div class="type-container" id="type-container">
+            <span class="type grass">grass </span>
+            <span class="type poison"> poison</span>
+          </div>
+          <p class="text" id="dex-entry">
+            A strange seed was planted on its back at birth. The plant sprouts
+            and grows with this Pokemon.
+          </p>
+          <h3>Base Stats</h3>
+          <div class="stats-container">
+            <span class="stats-text" id="HP">HP: 45</span>
+            <span class="stats-text" id="ATK">ATK: 49</span>
+            <span class="stats-text" id="DEF">DEF: 49</span>
+            <span class="stats-text" id="SP-ATK">SP ATK: 65</span>
+            <span class="stats-text" id="SP-DEF">SP DEF: 65</span>
+            <span class="stats-text" id="SPE">SPE: 45</span>
+            <span class="stats-text" id="HEI">Height: 0.7m</span>
+            <span class="stats-text" id="WEI">Weight: 6.9kg</span>
+          </div>
+        </div>
+        <span>
+          <button id="previous">Previous</button>
+          <button id="next">Next</button>
+          <button id="compare">Compare</button>
+        </span>
+      </div>
+    </section>
+    <section>
+      <div class="main-container" id="main-container-2">
+        <div class="dropdown-container" id="dropdown-container-2">
+          <select name="pokemon-list" id="pokemon-list-2"></select>
+          <span class="dropdown_arrow"></span>
+        </div>
+
+        <div class="sprite-container">
+          <span id="shiny-button-2" class="shiny-button">
+            <img src="./img/stars.svg" alt="shiny icon" class="star-svg" />
+          </span>
+          <img
+            id="sprite-image-2"
+            src=" https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/1.png"
+            alt="sprite"
+          />
+        </div>
+
+        <div class="description-container">
+          <h1 class="name" id="name-2">#1 Bulbasaur</h1>
+          <div class="type-container" id="type-container-2">
+            <span class="type grass">grass </span>
+            <span class="type poison"> poison</span>
+          </div>
+          <p class="text" id="dex-entry-2">
+            A strange seed was planted on its back at birth. The plant sprouts
+            and grows with this Pokemon.
+          </p>
+          <h3>Base Stats</h3>
+          <div class="stats-container">
+            <span class="stats-text-2" id="HP-2">HP: 45</span>
+            <span class="stats-text-2" id="ATK-2">ATK: 49</span>
+            <span class="stats-text-2" id="DEF-2">DEF: 49</span>
+            <span class="stats-text-2" id="SP-ATK-2">SP ATK: 65</span>
+            <span class="stats-text-2" id="SP-DEF-2">SP DEF: 65</span>
+            <span class="stats-text-2" id="SPE-2">SPE: 45</span>
+            <span class="stats-text-2" id="HEI-2">Height: 0.7m</span>
+            <span class="stats-text-2" id="WEI-2">Weight: 6.9kg</span>
+          </div>
+        </div>
+        <span>
+          <button id="previous-2">Previous</button>
+          <button id="next-2">Next</button>
+          <button id="startBattle">Start Battle</button>
+        </span>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
